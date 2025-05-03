@@ -185,10 +185,10 @@ export const guest = (() => {
         const url = new URL('https://calendar.google.com/calendar/render');
         const data = {
             action: 'TEMPLATE',
-            text: 'The Wedding of Yiyis and Laeli',
+            text: 'The Wedding of Yiyis and Arwan',
             dates: `${formatDate('2025-06-01 08:00')}/${formatDate('2025-06-01 13:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
-            location: 'https://goo.gl/maps/ALZR6FJZU3kxVwN86',
+            location: 'https://maps.app.goo.gl/xXXhRYbNLk3fZQVd7',
             ctz: 'Asia/Jakarta',
         };
 
